@@ -7,4 +7,6 @@ set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_C_COMPILE /usr/bin/gcc)
 set(CMAKE_CXX_COMPILE /usr/bin/g++)
 
+
 add_subdirectory(Chess)
+add_subdirectory(test)

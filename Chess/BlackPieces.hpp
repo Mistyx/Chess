@@ -1,3 +1,6 @@
+#ifndef SRC_BLACK_PIECES_HPP
+#define SRC_BLACK_PIECES_HPP
+
 #include "Pieces/Rook.hpp"
 #include "Pieces/Queen.hpp"
 #include "Pieces/King.hpp"
@@ -32,3 +35,5 @@ public:
     std::vector<char> setPieces(const std::vector<char>& board);
     std::shared_ptr<Piece> getPiece(const std::vector<char>& board, short x, short y);
 };
+
+#endif /* SRC_BLACK_PIECES_HPP */

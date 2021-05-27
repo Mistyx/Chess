@@ -4,22 +4,22 @@
 
 BlackPieces::BlackPieces() :
     pieces{
-        std::move(std::make_shared<Rook>(8, 1)),
-        std::move(std::make_shared<Rook>(8, 8)),
-        std::move(std::make_shared<Bishop>(8, 3)),
-        std::move(std::make_shared<Bishop>(8, 6)),
-        std::move(std::make_shared<Knight>(8, 2)),
-        std::move(std::make_shared<Knight>(8, 7)),
-        std::move(std::make_shared<Queen>(8, 4)),
-        std::move(std::make_shared<King>(8, 5)),
-        std::move(std::make_shared<Pawn>(7, 1)),
-        std::move(std::make_shared<Pawn>(7, 2)),
-        std::move(std::make_shared<Pawn>(7, 3)),
-        std::move(std::make_shared<Pawn>(7, 4)),
-        std::move(std::make_shared<Pawn>(7, 5)),
-        std::move(std::make_shared<Pawn>(7, 6)),
-        std::move(std::make_shared<Pawn>(7, 7)),
-        std::move(std::make_shared<Pawn>(7, 8))}
+        std::make_shared<Rook>(8, 1),
+        std::make_shared<Rook>(8, 8),
+        std::make_shared<Bishop>(8, 3),
+        std::make_shared<Bishop>(8, 6),
+        std::make_shared<Knight>(8, 2),
+        std::make_shared<Knight>(8, 7),
+        std::make_shared<Queen>(8, 4),
+        std::make_shared<King>(8, 5),
+        std::make_shared<Pawn>(7, 1),
+        std::make_shared<Pawn>(7, 2),
+        std::make_shared<Pawn>(7, 3),
+        std::make_shared<Pawn>(7, 4),
+        std::make_shared<Pawn>(7, 5),
+        std::make_shared<Pawn>(7, 6),
+        std::make_shared<Pawn>(7, 7),
+        std::make_shared<Pawn>(7, 8)}
 {
 }
 

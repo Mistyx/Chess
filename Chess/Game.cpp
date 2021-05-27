@@ -14,8 +14,8 @@ Game::Game()
 
     const auto newBoard = board.prepareBoard(whitePieces, blackPieces);
 
-    Player player1(whitePieces);
-    Player player2(blackPieces);
+    // Player player1(whitePieces);
+    // Player player2(blackPieces);
     // Player player1;
     // Player player2;
 
